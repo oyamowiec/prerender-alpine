@@ -14,6 +14,6 @@ RUN apk add --update-cache chromium \
 # install npm packages
 RUN npm install --no-package-lock
 
-EXPOSE 3000
+EXPOSE 80
 
 CMD ["node", "server.js"]
